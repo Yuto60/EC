@@ -1,0 +1,63 @@
+<!docktype html>
+<html lang="ja">
+
+<!-------ヘッド------->
+	
+	<head>
+	<meta harset="tf-8">
+		<title>ECサイト 注文</title>
+	<link rel="stylesheet"
+		  href="css/style1.css">
+		</head>
+
+	<body>
+	<!--------ヘッダー------>
+		
+	<header id="top">
+		<h1><a href="top.html">ECサイト</a></h1>
+		</header>
+	<!-----------/ヘッダー---------->
+		
+		<!----------メイン----------->
+		<main>
+		<!-------------メインビジュアル-------->
+			<div id="main_visual">
+			<p>ファッション2</p>
+				 
+				<form action="kounyu.php" method="post">
+				
+					<div><input type="hidden" name="prod_num" value="017"></div>
+					
+					名前
+					<div><input type="text" name="n"></div>
+					
+					郵便番号
+					<div><input type="text" name="addn" ></div>
+				
+		           住所
+					<div><input type="text" name="add"> </div>
+				
+				メールアドレス
+					<div><input type="email" name="mail"></div>
+				
+					電話番号
+					<div><input type="tel"></div>
+					
+					部数
+					<div><select name="busuu">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option> 
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+						</select></div>
+					
+					<input type="submit" value="確定">
+				</form>
+				
+			</div>
